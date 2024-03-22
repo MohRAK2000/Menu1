@@ -1,0 +1,83 @@
+
+a {
+	text-decoration: none;
+}
+
+
+header .logo {
+	transform: rotate(0deg);
+	transition: all 0.3s ease;
+	width: 50px;
+	height: 50px;
+	border-radius: 55px;
+}
+
+header .logo:hover {
+	transform: rotate(-6deg);
+}
+
+
+
+header .nav-link {
+	font-weight: 700;
+	color: #999;
+	border-radius: 15px;
+	font-size: 14px;
+	
+}
+
+header .nav-link:hover {
+	color: #fff;
+	background-color: #f4b41a;
+	border-radius: 75px;
+}
+
+
+
+footer .copyrights {
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer .copyrights a {
+	color: #f4b41a;
+}
+
+footer .copyrights a:hover {
+	color: #143d59;
+}
+
+.foods {
+	
+	color: #111;
+	text-align: center;
+}
+.welcoming {
+	text-align: center;
+	color: #143d59;
+	justify-content: center;
+}
+
+.navbar-custom {
+	background-color: #000 !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+	background-color: #f4b41a;
+	border-radius: 5px;
+	color: #000;
+}
+
+.food-row .card .card-body{
+	background-color: #fff;
+}
+.food-row .col-lg-4{
+	margin-bottom: 20px;
+}
+
+.food-row .card-text{
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+}
